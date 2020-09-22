@@ -1,0 +1,60 @@
+body {
+    background: url("../images/underwater.jpg") no-repeat center center fixed;
+}
+
+/*------------------------------------------------------------Heading */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #406ce4;
+}
+
+.navbar-brand {
+    color: #fafafa;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.navbar .navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.nav-item a {
+    color: #fafafa;
+}
+
+.callout-container {
+    height: 90vh;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background: rgba(3, 46, 165, 0.5);
+    color: #fafafa;
+    align-content: center;
+    margin-top: 10%;
+}
+
+.btn-callout {
+    background-color: #fc6a16;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+
+
+
+
+@media (min-width: 992px){
+    .navbar-brand {
+        font-size: 200%; 
+    }
+}
