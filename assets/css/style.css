@@ -5,6 +5,10 @@ body {
     background: url("../images/underwater.jpg") no-repeat center center fixed;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /*------------------------------------------------------------Heading */
 
 .uppercase {
@@ -30,6 +34,8 @@ body {
     color: #fafafa;
 }
 
+/*------------------------------------------------------------Callout */
+
 .callout-container {
     justify-content: center;
     position: relative; 
@@ -45,7 +51,7 @@ body {
 .callout-header {
     font-family: "Cairo", sans-serif;
     font-weight: 600;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .callout-text {
@@ -60,32 +66,103 @@ body {
 
 .btn-callout {
     background-color: #fc6a16;
-    color: #ffffff;
+    color: #000000;
     border-radius: 25px;
 }
 
+.btn-callout:hover {
+    background-color: #c95613;
+    color: #fafafa;
+}
+
+/*------------------------------------------------------------Content */
 
 .content-container {
-    background-color: rgba(51, 148, 228, 0.74);
+    background-color: rgba(51, 148, 228, 0.55);
     color: #fafafa;
+    margin-bottom: 25px;
 }
 
 .content-heading {
     font-family: "Cairo", sans-serif;
+    font-size: 50px;
 }
 
 .content-paragraph {
     font-family: "Oxygen", sans-serif;
+    font-size: 25px;
+}
+
+/*------------------------------------------------------------Footer */
+
+.footer-styling {
+    background-color: #29438a;
+    color: #fafafa;
+}
+
+.footer-heading {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.contact-info {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+}
+
+.monthly-subscription {
+    text-align: center;
+}
+
+.form-styling {
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+.form-btn-styling {
+    background-color: #3b3b3b;
+    color: #fafafa;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.form-btn-styling:hover {
+    background-color: #fc6a16;
+    color: #fafafa;
+}
+
+.social-links {
+    font-size: 200%;
+    text-align: center;
+}
+
+.social-links li a i {
+    color: #5a86ff;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #fc6a16;
 }
 
 
-@media (min-width: 992px){
+
+@media(min-width: 992px){
     .navbar-brand {
         font-size: 200%; 
-    }
+}
     .jumbotron {
         margin-top: 10%;
         margin-bottom: 0;
-    }
-    .collapse ( "show" );
+}
 }
