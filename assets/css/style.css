@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Syne:100,200,300,400,500,600,700|Cairo:100,200,300,400,500,600,700|Oxygen:100,200,300,400,500,600,700");
+
+
 body {
     background: url("../images/underwater.jpg") no-repeat center center fixed;
 }
@@ -16,10 +19,7 @@ body {
     color: #fafafa;
     font-size: 100%;
     font-weight: 600;
-}
-
-.custom-toggler {
-    border-color: #ffffff;
+    font-family: "Syne", sans-serif;
 }
 
 .nav-item {
@@ -42,6 +42,16 @@ body {
     margin-top: 20%;
 }
 
+.callout-header {
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.callout-text {
+    font-family: "Cairo", sans-serif;
+}
+
 .block-divider {
     width: 120px;
     height: 3px;
@@ -60,6 +70,13 @@ body {
     color: #fafafa;
 }
 
+.content-heading {
+    font-family: "Cairo", sans-serif;
+}
+
+.content-paragraph {
+    font-family: "Oxygen", sans-serif;
+}
 
 
 @media (min-width: 992px){
@@ -70,4 +87,5 @@ body {
         margin-top: 10%;
         margin-bottom: 0;
     }
+    .collapse ( "show" );
 }
