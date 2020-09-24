@@ -87,6 +87,8 @@ body {
 .content-heading {
     font-family: "Cairo", sans-serif;
     font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .content-paragraph {
@@ -107,7 +109,7 @@ body {
 }
 
 .container-btn:hover {
-    background-color: #000000;
+    background-color: #fafafa;
     color: #fc6a16;
 }
 
