@@ -81,17 +81,40 @@ body {
     background-color: rgba(51, 148, 228, 0.55);
     color: #fafafa;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .content-heading {
     font-family: "Cairo", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .content-paragraph {
     font-family: "Oxygen", sans-serif;
-    font-size: 25px; 
+    font-size: 15px; 
 }
+
+.content-image {
+    height: 80%;
+    width: 100%;
+}
+
+.container-btn {
+    background-color: #fc6a16;
+    color: #000000;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.container-btn:hover {
+    background-color: #000000;
+    color: #fc6a16;
+}
+
+.btn-container {
+    text-align: center;
+}
+
 
 /*------------------------------------------------------------Footer */
 
@@ -165,4 +188,14 @@ body {
         margin-top: 10%;
         margin-bottom: 0;
 }
+    .content-paragraph {
+        font-size: 25px;
+    }
+    .content-heading{
+        font-size: 50px;
+    }
+    .content-container {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
 }
