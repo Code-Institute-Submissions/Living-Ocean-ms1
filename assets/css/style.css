@@ -2,7 +2,7 @@
 
 
 body {
-    background: url("../images/underwater.jpg") no-repeat center center fixed;
+    background: url("images/underwater.jpg") no-repeat center center fixed;
 }
 
 .inline-block {
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: #406ce4;
+    background-color: #406ce46c;
 }
 
 .navbar-brand {
@@ -59,7 +59,7 @@ body {
 }
 
 .block-divider {
-    width: 120px;
+    width: 7.5rem;
     height: 3px;
     background-color: #fc6a16;
 }
@@ -67,7 +67,7 @@ body {
 .btn-callout {
     background-color: #fc6a16;
     color: #000000;
-    border-radius: 25px;
+    border-radius: 50%;
 }
 
 .btn-callout:hover {
@@ -80,20 +80,20 @@ body {
 .content-container {
     background-color: rgba(51, 148, 228, 0.55);
     color: #fafafa;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .content-heading {
     font-family: "Cairo", sans-serif;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 600;
     text-decoration: underline;
 }
 
 .content-paragraph {
     font-family: "Oxygen", sans-serif;
-    font-size: 15px; 
+    font-size: 1rem; 
 }
 
 .content-image {
@@ -104,8 +104,8 @@ body {
 .container-btn {
     background-color: #fc6a16;
     color: #000000;
-    border-radius: 25px;
-    margin-bottom: 10px;
+    border-radius: 1.5rem;
+    margin-bottom: 0.6rem;
 }
 
 .container-btn:hover {
@@ -113,9 +113,7 @@ body {
     color: #fc6a16;
 }
 
-.btn-container {
-    text-align: center;
-}
+
 
 
 /*------------------------------------------------------------Footer */
@@ -135,7 +133,7 @@ body {
 .contact-info {
     font-family: "Oxygen", sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -151,7 +149,7 @@ body {
 .form-btn-styling {
     background-color: #3b3b3b;
     color: #fafafa;
-    border-radius: 25px;
+    border-radius: 50%;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -191,13 +189,13 @@ body {
         margin-bottom: 0;
 }
     .content-paragraph {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
     .content-heading{
-        font-size: 50px;
+        font-size: 3rem;
     }
     .content-container {
-        margin-top: 75px;
-        margin-bottom: 75px;
+        margin-top: 4.6rem;
+        margin-bottom: 4.6rem;
     }
 }
