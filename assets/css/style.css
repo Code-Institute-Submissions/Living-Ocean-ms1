@@ -2,7 +2,7 @@
 
 
 body {
-    background: url("images/underwater.jpg") no-repeat center center fixed;
+    background: url("../images/underwater.jpg") no-repeat center center fixed;
 }
 
 .inline-block {
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: #406ce46c;
+    background-color: #406ce4b2;
 }
 
 .navbar-brand {
@@ -67,7 +67,7 @@ body {
 .btn-callout {
     background-color: #fc6a16;
     color: #000000;
-    border-radius: 50%;
+    border-radius: 1.5rem;
 }
 
 .btn-callout:hover {
@@ -76,6 +76,16 @@ body {
 }
 
 /*------------------------------------------------------------Content */
+
+.page-heading {
+    text-align: center;
+    align-content: center;
+    color: #fafafa;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
 
 .content-container {
     background-color: rgba(51, 148, 228, 0.55);
@@ -113,8 +123,33 @@ body {
     color: #fc6a16;
 }
 
+/*------------------------------------------------------------what-we're-doing content*/
+
+.we-do-content{
+    background-color:  rgba(51, 148, 228, 0.55);
+    color: #fafafa;
+    margin-bottom: 2rem;
+}
 
 
+/*------------------------------------------------------------Link to other pages*/
+
+.help-paragraph {
+    text-align: center;
+    color: #fafafa;
+    padding-bottom: 2rem;
+}
+
+.btn-help-link {
+    background-color: #fafafa;
+    color: #fc6a16;
+    border-radius: 1.5rem;
+}
+
+.btn-help-link:hover {
+    background-color: #fc6a16;
+    color: #fafafa;
+}
 
 /*------------------------------------------------------------Footer */
 
@@ -142,14 +177,15 @@ body {
 }
 
 .form-styling {
-    background-color: #3b3b3b;
+    background-color: #7096ff;
     color: #ffffff;
+    
 }
 
 .form-btn-styling {
-    background-color: #3b3b3b;
+    background-color: #7096ff;
     color: #fafafa;
-    border-radius: 50%;
+    border-radius: 1.5rem;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -167,7 +203,7 @@ body {
 }
 
 .social-links li a i {
-    color: #5a86ff;
+    color: #7096ff;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -197,5 +233,11 @@ body {
     .content-container {
         margin-top: 4.6rem;
         margin-bottom: 4.6rem;
+    }
+    .help-paragraph {
+        margin-left: 22rem;
+    }
+    .page-heading {
+        margin-top: 7rem;
     }
 }
