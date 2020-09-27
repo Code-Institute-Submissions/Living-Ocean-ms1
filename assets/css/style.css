@@ -85,6 +85,7 @@ body {
     margin-top: 5rem;
     margin-bottom: 3rem;
     font-weight: 600;
+    font-family: "Cairo", sans-serif;
 }
 
 .content-container {
@@ -123,12 +124,19 @@ body {
     color: #fc6a16;
 }
 
-/*------------------------------------------------------------what-we're-doing content*/
+/*------------------------------------------------------------what-we're-doing/how you can help content*/
 
-.we-do-content{
-    background-color:  rgba(51, 148, 228, 0.55);
+.help-heading {
+    color: #fc6a16;
+    font-weight: 600;
+}
+
+.help-content{
+    background-color:  rgba(51, 148, 228, 0.6);
     color: #fafafa;
     margin-bottom: 2rem;
+    height: fit-content;
+    font-family: "Oxygen", sans-serif;
 }
 
 
@@ -138,6 +146,7 @@ body {
     text-align: center;
     color: #fafafa;
     padding-bottom: 2rem;
+    margin: auto;
 }
 
 .btn-help-link {
@@ -149,6 +158,18 @@ body {
 .btn-help-link:hover {
     background-color: #fc6a16;
     color: #fafafa;
+}
+
+.btn-external {
+    color: #fc6a16;
+    background-color: #444444;
+    border-radius: 1.5rem;
+    margin-left: 5rem;
+}
+
+.btn-external:hover {
+    color: #444444;
+    background-color: #fc6a16;
 }
 
 /*------------------------------------------------------------Footer */
@@ -234,10 +255,13 @@ body {
         margin-top: 4.6rem;
         margin-bottom: 4.6rem;
     }
-    .help-paragraph {
-        margin-left: 22rem;
-    }
     .page-heading {
         margin-top: 7rem;
+    }
+    .help-content {
+        height: 80vh;
+    }
+    .btn-external {
+        margin-left: 3rem;
     }
 }
