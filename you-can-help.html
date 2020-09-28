@@ -63,8 +63,8 @@
     <div class="row">
     <section class="col-12 col-lg-4">
         <div class="help-content pb-5">
-        <h3 class="help-heading ml-3">Donate to us</h3>
-        <p class="ml-3 mr-3">The most direct way to help us is to donate on our donate page. 
+        <h3 class="help-heading ml-3">Donate to us <i class="fas fa-donate"></i></h3>
+        <p class="ml-3 mr-3 you-help-paragraph">The most direct way to help us is to donate on our donate page. 
         Your donations help us to invest in products and help to run projects to clean our oceans and help keep them clean. 
         Your money also helps us to keep educating businesses and schools, ensuring that we can spread our message to as many people as possible. 
         You can set up monthly payments, or just give a one-time donation. 
@@ -74,21 +74,25 @@
 
     <section class="col-12 col-lg-4">
         <div class="help-content pb-5">
-        <h3 class="help-heading ml-3">Volunteer</h3>
-        <p class="ml-3 mr-3">Along with a few other charities we help to organise events for the ‘Big Atlantic Clean-up’ right here in the UK. 
+        <h3 class="help-heading ml-3">Volunteer <i class="fas fa-hands-helping"></i></h3>
+        <p class="ml-3 mr-3 you-help-paragraph">Along with a few other charities we help to organise events for the ‘Big Atlantic Clean-up’ right here in the UK. 
         Through the hard work of our dedicated volunteers we helped to organise hundreds of events in dozens of counties in England, Wales, Scotland, and Northern Ireland. 
         Visit our volunteer co-ordinator’s website for more information! </p>
-        <a href="index.html" class="btn btn-md btn-external">Volunteer with us!</a>
+        <div class="text-center">
+        <a href="index.html" class="btn btn-external ml-0">Volunteer with us!</a>
+        </div>
         </div>
     </section>
 
     <section class="col-12 col-lg-4">
         <div class="help-content pb-5">
-        <h3 class="help-heading ml-3">Tips and Tricks</h3>
-        <p class="ml-3 mr-3">Its not just companies that can make big changes to help. 
+        <h3 class="help-heading ml-3">Tips and Tricks <i class="fas fa-tasks"></i></h3>
+        <p class="ml-3 mr-3 you-help-paragraph">Its not just companies that can make big changes to help. 
         Everyone can have a huge impact on plastic pollution just by making a few small changes to their lifestyle, even you! 
         Below is a link to a list compiled by us and our partners of some tips and tricks you can incorporate into your daily life immediately. </p>
-        <a href="index.html" class="btn btn-md btn-external">View our tips and tricks</a>
+        <div class="text-center">
+        <a href="index.html" class="btn btn-external ml-0">View our tips and tricks</a>
+        </div>
         </div>
     </section>
     </div>
@@ -113,15 +117,19 @@
                 <h6 class="footer-heading">
                     Subscribe to our mailing list
                 </h6>
-                <form class="monthly-subscription">
+               <form class="monthly-subscription">
                 <div class="form-group">
-                <input type="text" class="form-control form-control-sm form-styling" placeholder="First Name">
+                <input type="text" class="form-control form-control-sm form-styling" placeholder="First Name" required>
                 </div>
                 <div class="form-group">
-                <input type="text" class="form-control form-control-sm form-styling" placeholder="Last Name">
+                <input type="text" class="form-control form-control-sm form-styling" placeholder="Last Name" required>
                 </div>
                 <div class="form-group">
-                <input type="email" class="form-control form-control-sm form-styling" placeholder="Email">
+                <input type="email" class="form-control form-control-sm form-styling" placeholder="Email" required>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="emailcheckbox" required>
+                <label for="emailcheckbox" class="checkbox-text">Check to recieve emails about news and upcoming events from us</label>
                 </div>
                 <div class="form-group subscribe-button">
                 <input type="submit" class="btn btn-outline-primary form-btn-styling" value="Subscribe">

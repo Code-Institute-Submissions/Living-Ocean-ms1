@@ -139,6 +139,10 @@ body {
     font-family: "Oxygen", sans-serif;
 }
 
+.you-help-paragraph {
+    font-size: 1.3rem;
+}
+
 
 /*------------------------------------------------------------Link to other pages*/
 
@@ -164,12 +168,21 @@ body {
     color: #fc6a16;
     background-color: #444444;
     border-radius: 1.5rem;
-    margin-left: 5rem;
 }
 
 .btn-external:hover {
     color: #444444;
     background-color: #fc6a16;
+}
+
+/*------------------------------------------------------------Donate */
+
+.donate-form {
+    align-content: center;
+}
+
+.donate-btn {
+    border-radius: 1.5rem;
 }
 
 /*------------------------------------------------------------Footer */
@@ -218,6 +231,10 @@ body {
     color: #fafafa;
 }
 
+.checkbox-text {
+    font-size: 0.8rem;
+}
+
 .social-links {
     font-size: 200%;
     text-align: center;
@@ -263,5 +280,8 @@ body {
     }
     .btn-external {
         margin-left: 3rem;
+    }
+    .you-help-paragraph {
+        font-size: 1.1rem;
     }
 }
