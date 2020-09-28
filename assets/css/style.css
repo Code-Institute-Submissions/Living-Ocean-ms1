@@ -177,13 +177,39 @@ body {
 
 /*------------------------------------------------------------Donate */
 
+.donate-header {
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 2rem;
+    font-family: "Cairo", sans-serif;
+}
+
+.donate-container {
+    padding-top: 2rem;
+    justify-content: center;
+    position: relative; 
+    height: 70vh;
+}
+
 .donate-form {
     align-content: center;
 }
 
 .donate-btn {
     border-radius: 1.5rem;
+    background-color: #fafafa;
+    color: #fc6a16;
 }
+
+.donate-btn:hover {
+    background-color: #fc6a16;
+    color: #fafafa;
+}
+
+.form-label {
+    font-family: "Oxygen", sans-serif;
+}
+
 
 /*------------------------------------------------------------Footer */
 
