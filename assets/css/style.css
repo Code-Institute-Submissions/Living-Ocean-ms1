@@ -106,7 +106,7 @@ body {
 
 .content-paragraph {
     font-family: "Oxygen", sans-serif;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .content-image {
@@ -126,13 +126,14 @@ body {
     color: #fc6a16;
 }
 
-/*------------------------------------------------------------History*/
+/*------------------------------------------------------------The Facts*/
 
 .history-container {
-     margin-top: 25%;
-    margin-bottom: 15%;
+    margin-top: 25%;
+    margin-bottom: 10%;
     position: relative;
     z-index: 1;
+    padding-bottom: 1rem;
 }
 
 .history-bg {
@@ -155,8 +156,32 @@ body {
     width: 100%;
 }
 
+.micro-container {
+    margin-bottom: 5%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
 
-.history-heading {
+.micro-bg {
+    background: url(../images/sea-life.jpg)  center no-repeat;
+    opacity: 0.7;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.micro-bg:hover {
+    transform: scale(1.1); 
+}
+
+.facts-heading {
     color: #fafafa;
     text-align: center;
     font-family: "Cairo", sans-serif;
@@ -164,17 +189,31 @@ body {
     font-size: 300%;
 }
 
-.history-content {
+.facts-content {
     color: #fafafa;
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
 }
 
-.align-btn {
+.appeal-content {
+    color: #fafafa;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
     text-align: center;
 }
 
+.appeal-heading {
+    color: #fc6a16;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 300%;
+}
 
+.align-btn {
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 /*------------------------------------------------------------what-we're-doing/how you can help content*/
 
@@ -341,7 +380,7 @@ body {
         margin-bottom: 0;
 }
     .content-paragraph {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .content-heading{
         font-size: 3rem;
@@ -365,5 +404,11 @@ body {
     .history-container {
         margin-top: 10%;
         margin-bottom: 10%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content-paragraph {
+        font-size: 1.4rem;
     }
 }
