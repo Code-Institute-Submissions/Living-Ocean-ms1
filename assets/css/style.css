@@ -9,6 +9,10 @@ body {
     display: inline-block;
 }
 
+.inline {
+    display: inline;
+}
+
 /*------------------------------------------------------------Heading */
 
 .uppercase {
@@ -147,6 +151,8 @@ body {
 .history-bg:hover {
     background: url(../images/plastic-garbage.jpg) center no-repeat;
     opacity: 0.5;
+    height: 100%;
+    width: 100%;
 }
 
 
