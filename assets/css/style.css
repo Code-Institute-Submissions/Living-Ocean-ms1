@@ -83,7 +83,6 @@ body {
     color: #fafafa;
     font-size: 3rem;
     margin-top: 5rem;
-    margin-bottom: 3rem;
     font-weight: 600;
     font-family: "Cairo", sans-serif;
 }
@@ -99,7 +98,6 @@ body {
     font-family: "Cairo", sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
-    text-decoration: underline;
 }
 
 .content-paragraph {
@@ -123,6 +121,54 @@ body {
     background-color: #fafafa;
     color: #fc6a16;
 }
+
+/*------------------------------------------------------------History*/
+
+.history-container {
+     margin-top: 25%;
+    margin-bottom: 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.history-bg {
+    background: url(../images/bottles.jpg)  center no-repeat;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.history-bg:hover {
+    background: url(../images/plastic-garbage.jpg) center no-repeat;
+    opacity: 0.5;
+}
+
+
+.history-heading {
+    color: #fafafa;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+.history-content {
+    color: #fafafa;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+}
+
+.align-btn {
+    text-align: center;
+}
+
+
 
 /*------------------------------------------------------------what-we're-doing/how you can help content*/
 
@@ -188,7 +234,7 @@ body {
     padding-top: 2rem;
     justify-content: center;
     position: relative; 
-    height: 70vh;
+    height: 80vh;
 }
 
 .donate-form {
@@ -309,5 +355,9 @@ body {
     }
     .you-help-paragraph {
         font-size: 1.1rem;
+    }
+    .history-container {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 }
