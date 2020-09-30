@@ -8,7 +8,7 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
 * Make it clear what the Living Ocean Trust are doing and how the user can get involved
 * Make donating available on the website, and make it clear how to donate
 
-
+![Website displayed on multiple devices](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/multi-device.png)
 
 # UX
 
@@ -95,9 +95,12 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
   1. Code is stored using GitHub
 1. w3school, stackoverflow and CSS tricks
   1. All the above were used for guidance on how to style elements how I wanted, particularly the styling of background images in The Facts page
-  
+1. unsplash and pexels  
+  1. Used to source free images used throughout the website
 
 # Testing 
+* [W3C Markup Validator - Results](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/html-validator.png)
+* [WSC CSS Validator - Results](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/css-validator.png)
 
 # Deployment
 
