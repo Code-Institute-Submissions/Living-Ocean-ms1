@@ -8,6 +8,8 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
 * Make it clear what the Living Ocean Trust are doing and how the user can get involved
 * Make donating available on the website, and make it clear how to donate
 
+
+
 # UX
 
 ### First time user goals:
@@ -56,25 +58,44 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
   * A subscription form for a mailing list
   
 * Homepage 
+  * Jumbotron with a call to action directing them to donate 
+  * Links to The Facts page
 
 
 * The Facts Page
+  * Link to How You Can Help page
+  * Background image which changes to a new image on hover
+  * Background image which zooms in on hover
 
 
 * How You Can Help Page
+  * Link to Donate page
 
 
 * What We're Doing Page
+  * Link to How You Can Help page
 
 
 * Donate Page
-
+  * Form element with two text inputs, an email input, two radio inputs and a submit button
 
 
 # Wireframes
 
 # Technologies Used
 
+1. Languages used: HTML5 and CSS3
+1. Bootstrap
+  1. Bootstrap v4.5, jQuery
+1. Font Awesome 
+  1. Font Awesome v5.15, icons were used in headings to visually indicate its content
+1. Git
+  1. Used for version control, code created in GitPod then committed and pushed to GitHub
+1. GitHub
+  1. Code is stored using GitHub
+1. w3school, stackoverflow and CSS tricks
+  1. All the above were used for guidance on how to style elements how I wanted, particularly the styling of background images in The Facts page
+  
 
 # Testing 
 
