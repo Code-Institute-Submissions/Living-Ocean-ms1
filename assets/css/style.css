@@ -393,7 +393,7 @@ body {
         margin-top: 7rem;
     }
     .help-content {
-        height: 80vh;
+        height: 90vh;
     }
     .btn-external {
         margin-left: 3rem;
@@ -407,8 +407,6 @@ body {
     }
 }
 
-@media (min-width: 1024px) {
-    .content-paragraph {
-        font-size: 1.4rem;
-    }
+@media (min-width: 760px) {
+    
 }
