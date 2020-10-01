@@ -83,6 +83,7 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
 
 
 # Wireframes
+* Balsamiq wireframe [view](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/wireframe.pdf)
 
 # Technologies Used
 
@@ -178,3 +179,6 @@ Project was deployed through GitHub:
 ### Content
 * Inspiration for the callout jumbotron came from Bootstrapping Your Next Big Idea mini project, Code Institute Full Stack Developer course
 
+
+### Media
+* All photos used across the website have been sourced from either unsplash or pexels
