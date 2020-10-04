@@ -83,7 +83,7 @@ and large numbers of marine life. Unless we act soon we will no longer have a 'L
 
 
 # Wireframes
-* Balsamiq mobile wireframe [view] (https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/mobile-ocean-wireframe.pdf)
+* Balsamiq mobile wireframe [view](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/mobile-ocean-wireframe.pdf)
 * Balsamiq desktop wireframe [view](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/wireframe.pdf)
 
 # Technologies Used
