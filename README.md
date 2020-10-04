@@ -3,7 +3,7 @@
 # Living Ocean Trust Charity Website
 This website has been created to promote the ideology of the Living Ocean Trust and to show clearly what they are doing and how the user can help. The oceans are currently
 facing an ecological disaster the likes of which have never before been seen. Plastic, which was once praised as a miracle product is now polluting our waters, poisoning them
-and large numbers of marine life. Unless we act soon we will no long have a 'Living Ocean'.
+and large numbers of marine life. Unless we act soon we will no longer have a 'Living Ocean'.
 
 ### Website Purpose:
 * Create awareness of the issues currently facing the ocean
@@ -27,7 +27,7 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
 * Get quick access to 'tips and tricks'
 
 ### Frequent user goals:
-* Educators and businesses can easily find the website and its resources
+* Educators and businesses can easily find the website and it's resources
 * Finding contact information easily to discuss use of resources or to organise an event
 
 # Design
@@ -89,17 +89,17 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
 
 1. Languages used: HTML5 and CSS3
 1. Bootstrap
-  1. Bootstrap v4.5, jQuery
+   1. Bootstrap v4.5, jQuery
 1. Font Awesome 
-  1. Font Awesome v5.15, icons were used in headings to visually indicate its content
+   1. Font Awesome v5.15, icons were used in headings to visually indicate its content
 1. Git
-  1. Used for version control, code created in GitPod then committed and pushed to GitHub
+   1. Used for version control, code created in GitPod then committed and pushed to GitHub
 1. GitHub
-  1. Code is stored using GitHub
+   1. Code is stored using GitHub
 1. w3school, stackoverflow and CSS tricks
-  1. All the above were used for guidance on how to style elements how I wanted, particularly the styling of background images in The Facts page
+   1. All the above were used for guidance on how to style elements how I wanted, particularly the styling of background images in The Facts page
 1. unsplash and pexels  
-  1. Used to source free images used throughout the website
+   1. Used to source free images used throughout the website
 
 # Testing 
 * [W3C Markup Validator - Results](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/html-validator.png)
@@ -163,6 +163,10 @@ and large numbers of marine life. Unless we act soon we will no long have a 'Liv
 # Deployment
 
 ### GitHub
+Project was coded using GitPod and Git:
+1. Use git add to move code from the workspace to staging area
+1. Use git commit to save files to a local repository with a message to say what has been changed since previous commit
+1. Use git push to move the files from a local repsoitory to a remote repository like GitHub
 
 Project was deployed through GitHub:
 1. Log into GitHub
