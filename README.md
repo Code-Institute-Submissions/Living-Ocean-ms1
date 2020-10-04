@@ -89,17 +89,17 @@ and large numbers of marine life. Unless we act soon we will no longer have a 'L
 
 1. Languages used: HTML5 and CSS3
 1. Bootstrap
-   1. Bootstrap v4.5, jQuery
+   * Bootstrap v4.5, jQuery
 1. Font Awesome 
-   1. Font Awesome v5.15, icons were used in headings to visually indicate its content
+   * Font Awesome v5.15, icons were used in headings to visually indicate its content
 1. Git
-   1. Used for version control, code created in GitPod then committed and pushed to GitHub
+   * Used for version control, code created in GitPod then committed and pushed to GitHub
 1. GitHub
-   1. Code is stored using GitHub
+   * Code is stored using GitHub
 1. w3school, stackoverflow and CSS tricks
-   1. All the above were used for guidance on how to style elements how I wanted, particularly the styling of background images in The Facts page
+   * All the above were used for guidance on how to style elements how I wanted, particularly the styling of background images in The Facts page
 1. unsplash and pexels  
-   1. Used to source free images used throughout the website
+   * Used to source free images used throughout the website
 
 # Testing 
 * [W3C Markup Validator - Results](https://github.com/RDGrover/ocean-charity/blob/master/assets/images/readme/html-validator.png)
